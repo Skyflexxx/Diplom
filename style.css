@@ -1,0 +1,61 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+body{
+    background: rgb(250, 250, 250);
+    font-size:16px;
+    line-height:1;   
+    
+}
+
+.wrapper{
+    background-color: black;
+    opacity:0.8;
+    
+    
+    
+}
+        .container{
+            width: 1170px;
+            margin: 0 auto;
+            list-style: none;
+            display: flex;
+    justify-content: space-between;
+        }
+.wraper-main{
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.content-left{
+background-color: darkgrey;
+opacity: 0.8;
+
+}
+.TrackList{
+   
+}
+
+.content-right{
+    background-color: rgb(255, 182, 182);
+    opacity: 0.8;
+    
+    
+}
+.TrackList{
+    display:flex;
+    justify-content: space-between;
+}
+.News{
+    display:flex;
+    justify-content: space-between;
+}
+.footer-line{
+    background-color: black;
+    opacity: 0.8;
+}
